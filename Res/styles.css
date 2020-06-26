@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  height: 300px;
+  align-content: flex-start;
+}
+
+table {
+  border-collapse: collapse;
+  width: 5em;
+  margin-right: 1em;
+  margin-top: -1px;
+}
+table td {
+  padding: 2px 5px;
+  border: solid 1px #333;
+  text-align: center;
+}
+table .input {
+  width: 1.5em;
+}
+table .output {
+  width: 1.5em;
+}
+table .next {
+  width: 1em;
+}

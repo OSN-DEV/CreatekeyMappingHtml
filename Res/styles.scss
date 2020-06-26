@@ -1,0 +1,31 @@
+
+$colWidth:1.5em;
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    height: 300px;
+    align-content: flex-start
+}
+
+table {
+    border-collapse: collapse;
+    width: 5em;
+    margin-right: 1em;
+    margin-top: -1px;
+    td {
+        padding: 2px 5px;
+        border: solid 1px #333;
+        text-align: center;
+    }
+    .input {
+        width: $colWidth ;
+    }
+    .output {
+        width: $colWidth ;
+    }
+    .next {
+        width: 1em;
+    }
+}
+
